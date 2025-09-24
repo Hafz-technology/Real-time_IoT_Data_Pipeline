@@ -26,9 +26,14 @@ The end-goal: We're building a system to monitor and control a smart home, which
 
 ## Project Title: Smart Energy Monitoring
 The end-goal: We are building a dashboard that shows real-time power usage, a historical graph of consumption over time, and identify which appliances are "energy hogs." We implement an alert system to notify the user if consumption exceeds a certain threshold.
+### Data Types: Simulate data from smart plugs or power meters that measure energy consumption for different appliances.
 
 ## Home Security and Environmental Monitoring
 The end-goal: Our system will trigger a real-time alert whenever a door is opened unexpectedly or motion is detected when no one is home. We will also create a historical log of all security events and a dashboard showing the current temperature and humidity in different rooms.
+### Data Types: Simulate data from various sensors like motion detectors, door/window sensors, smoke alarms, and temperature/humidity sensors.
+
+
+**************************************************************************************************************************************************************
 
 ## Project Stages
 ### Stage 1: Data Simulation and Ingestion

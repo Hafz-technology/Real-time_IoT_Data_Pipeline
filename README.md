@@ -20,4 +20,13 @@ The Real-time IoT Data Pipeline project involves building a system that can coll
 
 * Data Analysis & Visualization: Creating insights from the processed data and presenting them to end-users with minimal latency.
 
+## Project Title: smart home automation
+The end-goal: We're building a system to monitor and control a smart home, which allows for interesting analysis and a user-friendly dashboard.
+### Data Types: a simple ON/OFF state, temperature readings, motion detection events, and light intensity levels.
+
+## Project Title: Smart Energy Monitoring
+The end-goal: We are building a dashboard that shows real-time power usage, a historical graph of consumption over time, and identify which appliances are "energy hogs." We implement an alert system to notify the user if consumption exceeds a certain threshold.
+
+## Home Security and Environmental Monitoring
+The end-goal: Our system will trigger a real-time alert whenever a door is opened unexpectedly or motion is detected when no one is home. We will also create a historical log of all security events and a dashboard showing the current temperature and humidity in different rooms.
 

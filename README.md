@@ -80,8 +80,8 @@ Deliverables:
 * Final project report
  
  
- ## Final Milestone Summary:
- ### Milestone---------------------------------Key Deliverables
+ ## Final stages Summary:
+ ### Stage-------------------------------------Key Deliverables
  1. Data Simulation----------------------------Python generator
  2. Batch ETL----------------------------------ETL pipeline
  3. Streaming Analytics------------------------Real-time alerts

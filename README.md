@@ -8,3 +8,4 @@ The Real-time IoT Data Pipeline project involves building a system that can coll
 * Huda Hosny
 * Hesham Gamal
 * Khalil Hafez
+## Project Goal: To build a scalable and flexible end-to-end data pipeline for collecting, processing, and analyzing real-time data from various IoT devices with minimal delay.

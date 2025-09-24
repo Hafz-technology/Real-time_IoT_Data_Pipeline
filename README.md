@@ -33,52 +33,52 @@ The end-goal: Our system will trigger a real-time alert whenever a door is opene
 ## Project Stages
 ### Stage 1: Data Simulation and Ingestion
  Objectives:
- • Simulate IoT data and push it into a file or message queue 
+ * Simulate IoT data and push it into a file or message queue 
 Tasks:
  1. Create a Python script to generate sensor data (every 5 seconds)
  2. Write to a file or Kafka/Stream (optional) 
 Deliverables:
- • Python generator script 
-• Sample data logs
+* Python generator script
+* Sample data logs
 
- Stage 2: Batch Data Pipeline (ETL)
+### Stage 2: Batch Data Pipeline (ETL)
  Objectives:
- • Ingest data, process it, and store it in a data warehouse
+* Ingest data, process it, and store it in a data warehouse
  Tasks: 
-1.Use Python or Azure Data Factory to: 
-•	Extract data (CSV or stream) 
-•	Transform it (e.g., flag anomalies, average)
-•	Load into SQL or Data Lake 
+1.Use Python or Azure Data Factory to:
+* Extract data (CSV or stream) 
+* Transform it (e.g., flag anomalies, average)
+* Load into SQL or Data Lake 
 Deliverables: 
-•	ETL script or ADF pipeline
-•	Processed dataset in storage
+* ETL script or ADF pipeline
+* Processed dataset in storage
 
- Stage 3: Streaming Pipeline with Alerts
+### Stage 3: Streaming Pipeline with Alerts
  Objectives:
- • Implement streaming analytics and alerting
+ * Implement streaming analytics and alerting
  Tasks:
 1.	Use Azure Stream Analytics or Apache Kafka to:
-•	Process real-time data
-•	Raise alerts for threshold breaches 
+* Process real-time data
+* Raise alerts for threshold breaches 
 Deliverables: 
-•	Streaming pipeline setup 
-•	Alert logic code and output
+* Streaming pipeline setup 
+* Alert logic code and output
 
- Stage 4:  Dashboard & Final Report
+### Stage 4:  Dashboard & Final Report
  Objectives:
-•	Visualize metrics and summarize results 
+* Visualize metrics and summarize results 
 Tasks:
  1. Create a real-time dashboard (Power BI, Streamlit, Grafana)
  2. Report on key findings and system performance
 Deliverables: 
-•	Dashboard screenshot/live demo 
-•	Final project report
+* Dashboard screenshot/live demo
+* Final project report
  
  
  ## Final Milestone Summary:
- Milestone-------------------------------------                                          Key Deliverables
- 1. Data Simulation                            Python generator
- 2. Batch ETL                                        ETL pipeline
- 3. Streaming Analytics                      Real-time alerts
- 4. Dashboard & Report                     Dashboard + PDF report
+ ### Milestone---------------------------------Key Deliverables
+ 1. Data Simulation----------------------------Python generator
+ 2. Batch ETL----------------------------------ETL pipeline
+ 3. Streaming Analytics------------------------Real-time alerts
+ 4. Dashboard & Report-------------------------Dashboard + PDF report
 

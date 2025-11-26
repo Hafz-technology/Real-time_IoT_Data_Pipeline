@@ -90,4 +90,5 @@ Deliverables:
 
 
 
-* ZooKeeper: is a centralized service used to coordinate and manage processes in large, distributed system like Kafka
+* ZooKeeper: is a centralized service used to coordinate and manage processes in large, distributed system like 
+

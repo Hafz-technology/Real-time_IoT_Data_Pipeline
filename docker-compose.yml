@@ -21,8 +21,8 @@ services:
   postgres:
     image: postgres:13
     environment:
-      POSTGRES_USER: user
-      POSTGRES_PASSWORD: password
+      POSTGRES_USER: depi
+      POSTGRES_PASSWORD: 123456
       POSTGRES_DB: iot_db
     ports:
       - "5432:5432"
@@ -42,4 +42,3 @@ services:
 
 
 
-      

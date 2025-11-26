@@ -87,3 +87,7 @@ Deliverables:
  3. Streaming Analytics------------------------Real-time alerts
  4. Dashboard & Report-------------------------Dashboard + PDF report
 
+
+
+
+* ZooKeeper: is a centralized service used to coordinate and manage processes in large, distributed system like Kafka

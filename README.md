@@ -92,3 +92,12 @@ Deliverables:
 
 * ZooKeeper: is a centralized service used to coordinate and manage processes in large, distributed system like 
 
+# Setup instruction
+* docker-compose up -d
+* docker exec -it <container_id_of_postgres> psql -U user -d iot_db -c "CREATE TABLE IF NOT EXISTS alerts (id SERIAL PRIMARY KEY, timestamp VARCHAR(50), message TEXT);"
+* python iot_generator.py
+* python stream_processor.py
+* python etl_batch.py
+* streamlit run dashboard.py
+
+

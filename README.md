@@ -94,7 +94,10 @@ Deliverables:
 
 # Setup instruction
 * docker-compose up -d
-* docker exec -it <container_id_of_postgres> psql -U user -d iot_db -c "CREATE TABLE IF NOT EXISTS alerts (id SERIAL PRIMARY KEY, timestamp VARCHAR(50), message TEXT);"
+* docker container ls 
+** from the above command you will know <container_id_of_postgres>
+
+* docker exec -it <container_id_of_postgres> psql -U depi -d iot_db -c "CREATE TABLE IF NOT EXISTS alerts (id SERIAL PRIMARY KEY, timestamp VARCHAR(50), message TEXT);"
 * python iot_generator.py
 * python stream_processor.py
 * python etl_batch.py

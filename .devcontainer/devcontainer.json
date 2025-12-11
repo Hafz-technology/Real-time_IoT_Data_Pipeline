@@ -1,0 +1,24 @@
+
+{
+  "name": "IoT Data Pipeline",
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "kafka", // Choose a primary service to start the dev environment on
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderName}",
+
+  // Ports to open automatically
+  "forwardPorts": [5432, 8080], 
+
+  // Post-create command to install Python dependencies
+  "postCreateCommand": "pip install -r requirements.txt", 
+
+  // Streamlit's default port will be 8501, and you'll run it in the background
+  "portsAttributes": {
+    "8501": {
+      "label": "Streamlit Dashboard",
+      "onAutoForward": "notify"
+    }
+  }
+}
+
+
+

@@ -1,0 +1,8 @@
+pandas
+sqlalchemy
+streamlit
+kafka-python
+psycopg2-binary
+
+
+

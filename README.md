@@ -103,4 +103,13 @@ The end-goal: Our system will trigger a real-time alert whenever a door is opene
 * python etl_batch.py
 * streamlit run dashboard.py
 
+Terminal 1: python iot_generator.py
+
+Terminal 2: python stream_processor.py
+
+Terminal 3: python etl_batch.py (Run periodically)
+
+Terminal 4: streamlit run dashboard.py
+
+
 

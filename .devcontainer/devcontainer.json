@@ -3,11 +3,12 @@
   "name": "IoT Data Pipeline",
   "dockerComposeFile": "../docker-compose.yml",
   "service": "kafka", 
-  "workspaceFolder": "/workspaces/${localWorkspaceFolderName}",
+ "workspaceFolder": "/workspaces/Real-time_IoT_Data_Pipeline",
   "features": {
     "ghcr.io/devcontainers/features/docker-in-docker:2": {
       "version": "latest",
-      "mobsfCli": "none",
+       "moby": false,
+ 
  
       "enableNonRootDocker": "true" 
     }
@@ -22,4 +23,6 @@
     }
   }
 }
+
+
 

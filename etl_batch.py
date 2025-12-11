@@ -2,7 +2,7 @@ import pandas as pd
 from sqlalchemy import create_engine
 
 # Database Connection
-db_string = "postgresql://depi:123456@localhost:5432/iot_db"
+db_string = "postgresql://depi:123456@postgres:5432/iot_db"
 
 db = create_engine(db_string)
 

@@ -5,7 +5,7 @@ from sqlalchemy import create_engine, text
 
 
 
-db_string = "postgresql://depi:123456@localhost:5432/iot_db"
+db_string = "postgresql://depi:123456@postgres:5432/iot_db"
 engine = create_engine(db_string)
 
 consumer = KafkaConsumer(

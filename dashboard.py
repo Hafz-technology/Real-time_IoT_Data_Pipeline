@@ -6,7 +6,9 @@ import time
 st.set_page_config(page_title="IoT Smart Home Dashboard", layout="wide")
 st.title("The Data Pioneers: IoT Smart Home Hub")
 
-db_string = "postgresql://user:123456@localhost:5432/iot_db"
+
+db_string = "postgresql://depi:123456@localhost:5432/iot_db"
+
 db = create_engine(db_string)
 
 if st.button('Refresh Data'):

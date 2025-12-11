@@ -4,7 +4,8 @@ from kafka import KafkaConsumer
 from sqlalchemy import create_engine, text
 
 
-db_string = "postgresql://user:password@localhost:5432/iot_db"
+
+db_string = "postgresql://depi:123456@localhost:5432/iot_db"
 engine = create_engine(db_string)
 
 consumer = KafkaConsumer(
@@ -33,12 +34,11 @@ for message in consumer:
         with engine.connect() as conn:
             query = text("INSERT INTO alerts (timestamp, message) VALUES (:t, :m)")
             conn.execute(query, {"t": data['timestamp'], "m": alert_msg})
-            conn.commit() 
+     
             
             
             
-            
-            
+
             
             
             

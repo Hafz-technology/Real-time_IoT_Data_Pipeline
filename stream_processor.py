@@ -8,12 +8,18 @@ from sqlalchemy import create_engine, text
 db_string = "postgresql://depi:123456@postgres:5432/iot_db"
 engine = create_engine(db_string)
 
+
+
 consumer = KafkaConsumer(
     'iot_sensor_data',
-    bootstrap_servers=['localhost:9092'],
+ 
+    bootstrap_servers=['kafka:9092'],
     auto_offset_reset='latest',
     value_deserializer=lambda x: json.loads(x.decode('utf-8'))
 )
+
+
+
 
 print("Listening for Real-time Events...")
 
